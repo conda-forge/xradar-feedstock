@@ -1,5 +1,5 @@
 {% set name = "xradar" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xradar-{{ version }}.tar.gz
-  sha256: 7872d6901ad114cbbd948d7d25870ee80a172448bed720d65ba0003405bda712
+  sha256: 553e19bdf6849ed3b3dad0a4e02eb45a8723f944dd73948d520139af61927224
 
 build:
   noarch: python
@@ -24,10 +24,13 @@ requirements:
     - dask
     - h5netcdf
     - h5py
+    - lat_lon_parser
     - numpy
     - netcdf4
+    - python-dateutil
     - xarray
     - xarray-datatree
+    - xmltodict
 
 test:
   imports:
