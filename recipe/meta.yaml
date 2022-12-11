@@ -30,7 +30,7 @@ requirements:
     - python-dateutil
     - scipy
     - xarray
-    - xarray-datatree>=0.0.10
+    - xarray-datatree >=0.0.10
     - xmltodict
 
 test:
