@@ -1,5 +1,5 @@
 {% set name = "xradar" %}
-{% set version = "0.0.11" %}
+{% set version = "0.0.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xradar-{{ version }}.tar.gz
-  sha256: 21ff293249ac0501b0b3993f6ab46e1315f36cb0696bef59190ecce845eb25b0
+  sha256: 29f801d4ddefe593d07f70dc1d044d3ae2f08cd3ae88818a11b6059a5c8d215e
 
 build:
   noarch: python
