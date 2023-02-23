@@ -32,6 +32,7 @@ requirements:
     - xarray
     - xarray-datatree >=0.0.10
     - xmltodict
+    - pyproj
 
 test:
   imports:
