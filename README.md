@@ -1,11 +1,11 @@
-About xradar
-============
+About xradar-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xradar-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/openradar/xradar
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xradar-feedstock/blob/main/LICENSE.txt)
 
 Summary: Xradar includes all the tools to get your weather radar into the xarray data model.
 
