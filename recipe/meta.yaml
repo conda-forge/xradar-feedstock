@@ -1,13 +1,13 @@
 {% set name = "xradar" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xradar-{{ version }}.tar.gz
-  sha256: a0fc748b929f2bb98041d4b178652e996a60be8e074db5942ddb02803a6268fd
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xradar-{{ version }}.tar.gz
+  sha256: f1593ecf0aa874168f4f046bb9a291de44b29403475a8d945d60af2a62d820c3
 
 build:
   noarch: python
@@ -32,8 +32,7 @@ requirements:
     - netcdf4
     - python-dateutil
     - scipy
-    - xarray <=2024.9.0
-    - xarray-datatree >=0.0.14
+    - xarray >=2024.10.0
     - xmltodict
     - pyproj
 
