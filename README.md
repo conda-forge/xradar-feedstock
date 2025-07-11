@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@kmuehlbauer](https://github.com/kmuehlbauer/)
 * [@mgrover1](https://github.com/mgrover1/)
 
-
-<!-- dummy commit to enable rerendering -->
-
