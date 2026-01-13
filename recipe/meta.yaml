@@ -1,5 +1,5 @@
 {% set name = "xradar" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xradar-{{ version }}.tar.gz
-  sha256: 5f36ac381a9c05087acb56fa9669e8bd3c7abe8ef80e7fc289e06d07fa08550b
+  sha256: f61d6ab8977042ca08d1c956cfe23f8a495b7e702e859b79ef532641267192a9
 
 build:
   noarch: python
