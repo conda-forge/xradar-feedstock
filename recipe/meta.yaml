@@ -36,9 +36,6 @@ requirements:
     - xarray >=2024.10.0
     - xmltodict
     - pyproj
-  run_constraints:
-    - zarr >=3
-    - open-radar-data >=0.9.0  
 
 test:
   imports:
